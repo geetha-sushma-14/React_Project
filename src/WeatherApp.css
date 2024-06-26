@@ -1,0 +1,20 @@
+.WeatherApp{
+    text-align: center;
+    margin-top: 3rem;
+}
+.WeatherApp h1{
+    color: rgb(20, 20, 79);
+}
+.WeatherApp h3{
+    margin-top: 1rem;
+    color: rgb(20, 20, 79);
+}
+@media screen and (max-width:900px){
+    .WeatherApp h1{
+        color: white;
+    }
+    .WeatherApp h3 {
+        color: white;
+        margin: 1rem;
+    }
+}

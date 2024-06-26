@@ -1,0 +1,48 @@
+.searchbox{
+    text-align: center;
+    margin: 25px;
+}
+.textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: rgb(20, 20, 79);
+}
+.textfield .MuiInputLabel-root.Mui-focused{
+    color: rgb(20, 20, 79);
+}
+.textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: rgb(20, 20, 79);
+}
+.textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+    border:2px solid rgb(20, 20, 79);
+}
+.textfield .MuiInputLabel-root {
+    color: rgb(20, 20, 79);
+}
+.textfield .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    color: rgb(20, 20, 79);
+}
+.alert{
+    width: 15rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:900px){
+    .textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+        border-color: white;
+    }
+    .textfield .MuiInputLabel-root.Mui-focused{
+        color: white;
+    }
+    .textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+        border-color: white;
+    }
+    .textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+        border:2px solid white;
+    }
+    .textfield .MuiInputLabel-root {
+        color: white;
+    }
+    .textfield .MuiOutlinedInput-root .MuiOutlinedInput-input {
+        color: white;
+    }
+}

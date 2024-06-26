@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Background color for the body */
+html, body {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url('https://img.freepik.com/free-photo/photorealistic-style-clouds_23-2151058968.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
